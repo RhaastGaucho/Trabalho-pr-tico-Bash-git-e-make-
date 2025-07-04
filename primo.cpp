@@ -18,7 +18,7 @@ int main() {
     if (ehPrimo(numero))
         std::cout<< "Primo\n";
     else
-        std::cout << numero << "Não é primo\n";
+        std::cout << "Não é primo\n";
 
     return 0;
 }

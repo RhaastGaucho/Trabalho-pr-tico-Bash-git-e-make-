@@ -1,15 +1,21 @@
+### Trabalho prático de sistemas de software livre para aplicar o que foi ensinado em git, bash e utilizar outras funcionalidades como make e scripts shell
+
 Mauricio Rockembach dos Santos
-git a
-Trabalho prático de sistemas de software livre para aplicar o que foi ensinado em git, bash e utilizar outras funcionalidades como make e scripts shell
 
 ## Como usar
 
 ```sh
-# Comandos de exemplo
+# Para utilizar o make
 
-make
+make primo # compilar o programa - make all para todos
+make run-primo # compilar e executar o programa - make run-all para todos
 
-./primo
+```
+
+```sh
+# Para utilizar o shell script
+
+./generate-test-primo.sh
 
 ```
 
@@ -20,3 +26,5 @@ make
 - Manipula matrizes
 
 - Manipula vetores
+
+- Automatizar casos de teste para as funcionalidades acima 
