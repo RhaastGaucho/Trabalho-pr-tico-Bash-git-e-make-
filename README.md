@@ -40,7 +40,7 @@ Para utilizar o shell script
 
 - Não consegui unificar as branchs, consegui fazer todas e separar o conteudo entre elas, porém quando eu usava o merge eu perdia tudo que estava na branch atual. Exemplo: na branch main: git merge verificador-de-primo, ao rodar este comando tudo que estava na branch main era substituido pelo que estava na branch verificador-de-primo.
 
-### TESTES
+# TESTES
 
 Parte dedicada à mostrar os testes realizados nos programas.
 
