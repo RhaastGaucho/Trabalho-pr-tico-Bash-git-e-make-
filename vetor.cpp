@@ -19,6 +19,8 @@ int main() {
         }
     }
 
+    cout<<endl;
+    
     cout << maior << endl;
 
     return 0;
