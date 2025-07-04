@@ -43,6 +43,19 @@ Parte dedicada à mostrar os testes realizados nos programas.
 # ENTRADA
 ./primo
 5
+
 # SAIDA
 Primo
+```
+
+## vetor.cpp
+
+```sh
+# ENTRADA
+./vetor
+6
+123 534 23 423 12 32
+
+# SAIDA
+534
 ```
