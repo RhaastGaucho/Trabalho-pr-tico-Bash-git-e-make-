@@ -59,3 +59,56 @@ Primo
 # SAIDA
 534
 ```
+
+## matriz.cpp
+
+teste de soma
+
+```sh
+# ENTRADA
+./matriz
+2
+1 2
+3 4
+5 6
+7 8
+a
+
+# SAIDA
+6 8
+10 12
+```
+
+teste de subtração
+
+```sh
+# ENTRADA
+./matriz
+2
+1 2
+3 4
+5 6
+7 8
+s
+
+# SAIDA
+-4 -4
+-4 -4
+```
+
+teste de multiplicação
+
+```sh
+# ENTRADA
+./matriz
+2
+1 2
+3 4
+5 6
+7 8
+m
+
+# SAIDA
+19 22
+43 50
+```
