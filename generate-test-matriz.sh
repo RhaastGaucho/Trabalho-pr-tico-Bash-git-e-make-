@@ -1,41 +1,49 @@
 make matriz
 
-n=3
+n=$((RANDOM % 11))
 
-echo "=== Testando Matrizes de tamanho $n ==="
+echo $n
+
+A=()
+B=()
+for ((i=0; i<n*n; i++)); do
+    A+=($((RANDOM % 10)))
+    B+=($((RANDOM % 10)))
+done
+
+opcoes=("a" "s" "m")
+op=${opcoes[$((RANDOM % 3))]}
 
 echo "Matriz A:"
+
 for ((i=0; i<n; i++)); do
     for ((j=0; j<n; j++)); do
-        echo -n "$((RANDOM % 10)) "
+        idx=$((i * n + j))
+        echo -n "${A[$idx]} "
     done
     echo
 done
 
 echo "Matriz B:"
+
 for ((i=0; i<n; i++)); do
     for ((j=0; j<n; j++)); do
-        echo -n "$((RANDOM % 10)) "
+        idx=$((i * n + j))
+        echo -n "${B[$idx]} "
     done
     echo
 done
 
-op=("a" "s" "m")
-op_choice=${op[$((RANDOM % 3))]}
-
-echo "Operação: $op_choice"
+echo $op
 
 entrada="$n"
-for ((i=0; i<n; i++)); do
-    for ((j=0; j<n; j++)); do
-        entrada="$entrada $((RANDOM % 10))"
-    done
+for val in "${A[@]}"; do
+    entrada="$entrada $val"
 done
-for ((i=0; i<n; i++)); do
-    for ((j=0; j<n; j++)); do
-        entrada="$entrada $((RANDOM % 10))"
-    done
+
+for val in "${B[@]}"; do
+    entrada="$entrada $val"
 done
-entrada="$entrada $op_choice"
+entrada="$entrada $op"
 
 echo "$entrada" | ./matriz
