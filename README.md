@@ -69,7 +69,7 @@ Primo
 
 ## matriz.cpp
 
-teste de soma
+# teste de soma
 
 ```sh
 # ENTRADA
@@ -86,7 +86,7 @@ a
 10 12
 ```
 
-teste de subtração
+# teste de subtração
 
 ```sh
 # ENTRADA
@@ -103,7 +103,7 @@ s
 -4 -4
 ```
 
-teste de multiplicação
+# teste de multiplicação
 
 ```sh
 # ENTRADA
