@@ -4,17 +4,24 @@ Mauricio Rockembach dos Santos.
 
 ## Como usar
 
-```sh
-# Para utilizar o make
+Para rodar diretamente um programa
 
+```sh
+g++ -o matriz matriz.cpp
+./matriz
+```
+
+Para utilizar o make
+
+```sh
 make primo # compilar o programa - make all para todos
 make run-primo # compilar e executar o programa - make run-all para todos
 
 ```
 
-```sh
-# Para utilizar o shell script
+Para utilizar o shell script
 
+```sh
 ./generate-test-primo.sh
 
 ```
