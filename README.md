@@ -1,4 +1,4 @@
-### Trabalho prático de sistemas de software livre para aplicar o que foi ensinado em git, bash e utilizar outras funcionalidades como make e scripts shell
+# Trabalho prático de sistemas de software livre para aplicar o que foi ensinado em git, bash e utilizar outras funcionalidades como make e scripts shell
 
 Mauricio Rockembach dos Santos.
 
